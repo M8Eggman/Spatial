@@ -22311,4 +22311,17 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../assets/img/banner.jpg);
+  background-size: contain;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */
