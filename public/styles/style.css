@@ -22340,9 +22340,15 @@ h2 {
   font-size: 28px;
 }
 
+nav > div {
+  font-size: 25px;
+  color: white;
+  display: none;
+}
+
 header {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 667px;
+  min-height: 667px;
 }
 header h1 {
   margin-top: 115px;
@@ -22392,7 +22398,7 @@ nav p, nav li {
 
 #sectionMaecenas {
   background-color: white;
-  height: 554px;
+  min-height: 554px;
   gap: 65px;
 }
 #sectionMaecenas > div {
@@ -22411,7 +22417,7 @@ nav p, nav li {
 
 #sectionFusce {
   background-color: #f6f6f6;
-  height: 1113px;
+  min-height: 1113px;
 }
 #sectionFusce h2 {
   margin-top: 95px;
@@ -22462,7 +22468,7 @@ nav p, nav li {
 
 #sectionMauris {
   background-color: white;
-  height: 908px;
+  min-height: 908px;
   padding-inline: 204px;
 }
 #sectionMauris h2 {
@@ -22512,7 +22518,7 @@ nav p, nav li {
 
 #sectionAenean {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 445px;
+  min-height: 445px;
 }
 #sectionAenean h2 {
   margin-top: 95px;
@@ -22535,7 +22541,7 @@ nav p, nav li {
 
 footer {
   background-color: #f6f6f6;
-  height: 382px;
+  min-height: 382px;
   color: #aaaaaa;
 }
 footer > div:first-of-type {
@@ -22560,6 +22566,157 @@ footer > div:last-of-type div p {
 }
 footer > div:last-of-type div:nth-of-type(2) {
   border-inline: solid 2px #aaaaaa;
+}
+
+@media screen and (max-width: 576px) {
+  h2 {
+    margin-top: 0px !important;
+    text-align: center;
+    font-size: 35px;
+  }
+  .pApresH:not(#sectionMauris .pApresH) {
+    text-align: center;
+    font-size: 18px;
+  }
+  header .pApresH {
+    width: auto;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    display: none;
+  }
+  nav div {
+    display: block;
+  }
+  #sectionMaecenas {
+    padding-block: 10px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #sectionMaecenas div {
+    height: auto;
+  }
+  #sectionFusce {
+    padding-block: 10px 20px;
+  }
+  #sectionFusce > div:nth-of-type(2) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #sectionFusce > div:nth-of-type(2) div, #sectionFusce > div:nth-of-type(2) div img {
+    width: 90vw;
+  }
+  #sectionFusce > div:last-of-type {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #sectionMauris {
+    padding-inline: 0;
+    padding-block: 10px 20px;
+  }
+  #sectionMauris > div:last-of-type div {
+    justify-content: center;
+  }
+  #sectionMauris > div:last-of-type > div {
+    flex-wrap: wrap;
+  }
+  #sectionMauris > div:last-of-type > div > div {
+    width: 90vw;
+  }
+  #sectionMauris > div:last-of-type > div > div p, #sectionMauris > div:last-of-type > div > div h4 {
+    text-align: center;
+  }
+  #sectionMauris > div:last-of-type > div > div:nth-of-type(1), #sectionMauris > div:last-of-type > div > div:nth-of-type(1) {
+    flex-wrap: wrap-reverse;
+  }
+  #sectionMauris > div:last-of-type > div > div:nth-of-type(2), #sectionMauris > div:last-of-type > div > div:nth-of-type(4) {
+    flex-wrap: wrap;
+  }
+  #sectionAenean {
+    padding-block: 10px 20px;
+    justify-content: center;
+  }
+  footer div:last-of-type {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  footer div:last-of-type div {
+    width: 175px;
+  }
+  footer div:last-of-type div:nth-of-type(2) {
+    border: none;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  h2 {
+    margin-top: 0px !important;
+    text-align: center;
+  }
+  .pApresH:not(#sectionMauris .pApresH) {
+    text-align: center;
+  }
+  header .pApresH {
+    width: auto;
+  }
+  nav ul {
+    gap: 15px;
+  }
+  #sectionMaecenas {
+    padding-block: 10px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #sectionMaecenas div {
+    height: auto;
+  }
+  #sectionFusce {
+    padding-block: 10px 20px;
+  }
+  #sectionFusce > div:nth-of-type(2) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #sectionFusce > div:nth-of-type(2) div img {
+    width: 90vw;
+  }
+  #sectionMauris {
+    padding-inline: 0;
+    padding-block: 10px 20px;
+  }
+  #sectionMauris > div:last-of-type > div {
+    flex-wrap: wrap;
+  }
+  #sectionMauris > div:last-of-type > div > div {
+    width: 90vw;
+  }
+  #sectionAenean {
+    justify-content: center;
+  }
+  footer div:last-of-type div {
+    width: 175px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1440px) {
+  #sectionMaecenas {
+    gap: 10px;
+  }
+  #sectionFusce {
+    padding-block: 0px 20px;
+  }
+  #sectionFusce > div:nth-of-type(2) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #sectionMauris {
+    padding-block: 0px 20px;
+  }
+  #sectionMauris > div:last-of-type > div {
+    flex-wrap: wrap;
+    padding-block: 0px 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

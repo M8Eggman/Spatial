@@ -1,0 +1,113 @@
+// Pour écran smartphone
+@media screen and (max-width: 576px)
+    h2
+        margin-top: 0px !important
+        text-align: center
+        font-size: 35px
+    .pApresH:not(#sectionMauris .pApresH)
+        text-align: center
+        font-size: 18px
+    header .pApresH
+        width: auto
+    nav 
+        ul 
+            display: none 
+            li
+                display: none
+        div
+            display: block
+    #sectionMaecenas
+        padding-block: 10px 20px
+        flex-wrap: wrap 
+        gap: 10px
+        div
+            height: auto
+    #sectionFusce 
+        padding-block: 10px 20px
+        > div:nth-of-type(2)
+            flex-wrap: wrap
+            justify-content: center
+            div, div img
+                width: 90vw
+        > div:last-of-type
+            justify-content: center
+            flex-wrap: wrap
+    #sectionMauris
+        padding-inline: 0
+        padding-block: 10px 20px
+        > div:last-of-type 
+            div
+                justify-content: center
+            > div
+                flex-wrap: wrap
+                > div
+                    width: 90vw
+                    p, h4
+                        text-align: center
+                > div:nth-of-type(1), > div:nth-of-type(1)
+                    flex-wrap: wrap-reverse
+                > div:nth-of-type(2), > div:nth-of-type(4)
+                    flex-wrap: wrap
+    #sectionAenean
+        padding-block: 10px 20px
+        justify-content: center
+    footer div:last-of-type 
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        div
+            width: 175px
+        div:nth-of-type(2)
+            border: none
+
+// Pour écran tablette
+@media screen and (min-width: 577px) and (max-width: 992px)
+    h2
+        margin-top: 0px !important
+        text-align: center
+    .pApresH:not(#sectionMauris .pApresH)
+        text-align: center
+    header .pApresH
+        width: auto
+    nav ul 
+        gap: 15px
+    #sectionMaecenas
+        padding-block: 10px 20px
+        flex-wrap: wrap 
+        gap: 10px
+        div
+            height: auto
+    #sectionFusce 
+        padding-block: 10px 20px
+        > div:nth-of-type(2)
+            flex-wrap: wrap
+            justify-content: center
+            div img
+                width: 90vw
+    #sectionMauris
+        padding-inline: 0
+        padding-block: 10px 20px
+        > div:last-of-type > div
+            flex-wrap: wrap
+            > div
+                width: 90vw
+    #sectionAenean
+        justify-content: center
+    footer div:last-of-type div
+        width: 175px
+
+// pour écran entre tablette et laptop L
+@media screen and (min-width: 993px) and (max-width: 1440px)
+    #sectionMaecenas
+        gap: 10px
+    #sectionFusce
+        padding-block: 0px 20px
+        > div:nth-of-type(2)
+            flex-wrap: wrap
+            justify-content: center
+
+    #sectionMauris 
+        padding-block: 0px 20px
+        > div:last-of-type > div
+            flex-wrap: wrap
+            padding-block: 0px 20px
