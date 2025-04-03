@@ -22337,7 +22337,6 @@ h2 {
   color: #aaaaaa;
   letter-spacing: 1.2px;
   line-height: 1.46;
-  margin-top: 13px;
   font-size: 28px;
 }
 
@@ -22365,9 +22364,10 @@ header button {
   border-radius: 5px;
   font-size: 22px;
   font-weight: 600;
+  color: white;
   background-color: #f32853;
 }
-header h1, header button {
+header h1 {
   color: white;
 }
 
@@ -22407,6 +22407,57 @@ nav p, nav li {
 #sectionMaecenas div:last-of-type p:first-of-type {
   margin-top: 4px;
   margin-bottom: 33px;
+}
+
+#sectionFusce {
+  background-color: #f6f6f6;
+  height: 1113px;
+}
+#sectionFusce h2 {
+  margin-top: 95px;
+}
+#sectionFusce .pApresH {
+  text-align: center;
+  margin-top: 13px;
+  margin-bottom: 101px;
+}
+#sectionFusce > div:nth-of-type(2) {
+  gap: 50px;
+}
+#sectionFusce > div:nth-of-type(2) div {
+  background-color: white;
+}
+#sectionFusce > div:nth-of-type(2) div img {
+  width: 634px;
+}
+#sectionFusce > div:nth-of-type(2) div h3 {
+  margin-block: 46px;
+  text-align: center;
+  font-size: 23px;
+}
+#sectionFusce > div:last-of-type {
+  margin-top: 68px;
+  gap: 20px;
+}
+#sectionFusce > div:last-of-type button:first-of-type {
+  padding-inline: 55px;
+  padding-block: 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  background-color: #f32853;
+}
+#sectionFusce > div:last-of-type button:last-of-type {
+  padding-inline: 55px;
+  padding-block: 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  background-color: #323037;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,31 @@
 @use './_variables' as *
 @use './_mixins' as *
 @use './_fonts'
+
+#sectionFusce
+    background-color: $fondGris
+    height: 1113px
+    h2
+        margin-top: 95px
+    .pApresH
+        text-align: center
+        margin-top: 13px
+        margin-bottom: 101px
+    > div:nth-of-type(2) 
+        gap: 50px
+        div
+            background-color: $fondBlanc
+            img
+                width: 634px
+            h3
+                margin-block: 46px
+                text-align: center
+                font-size: 23px
+    > div:last-of-type
+        margin-top: 68px
+        gap: 20px
+        button:first-of-type
+            @include styleBouton ($rougeBouton)
+        button:last-of-type
+            @include styleBouton ($noirBouton)
+
