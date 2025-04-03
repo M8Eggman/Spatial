@@ -1,3 +1,25 @@
 @use './_variables' as *
 @use './_mixins' as *
 @use './_fonts'
+
+footer
+    background-color: $fondGris
+    height: 382px
+    color: $grisTexte
+    > div:first-of-type
+        margin-top: 122px
+        gap: 68px
+        i
+            font-size: 46px
+    > div:last-of-type 
+        margin-top: 55px
+        div
+            width: 200px
+            height: 35px
+            display: flex
+            align-items: center
+            justify-content: center
+            p
+                margin: 0
+        div:nth-of-type(2)
+            border-inline: solid 2px $grisTexte

@@ -22533,4 +22533,33 @@ nav p, nav li {
   background-color: #f32853;
 }
 
+footer {
+  background-color: #f6f6f6;
+  height: 382px;
+  color: #aaaaaa;
+}
+footer > div:first-of-type {
+  margin-top: 122px;
+  gap: 68px;
+}
+footer > div:first-of-type i {
+  font-size: 46px;
+}
+footer > div:last-of-type {
+  margin-top: 55px;
+}
+footer > div:last-of-type div {
+  width: 200px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer > div:last-of-type div p {
+  margin: 0;
+}
+footer > div:last-of-type div:nth-of-type(2) {
+  border-inline: solid 2px #aaaaaa;
+}
+
 /*# sourceMappingURL=style.css.map */
