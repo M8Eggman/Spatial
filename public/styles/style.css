@@ -22571,12 +22571,12 @@ footer > div:last-of-type div:nth-of-type(2) {
 @media screen and (max-width: 576px) {
   h2 {
     margin-top: 0px !important;
-    text-align: center;
-    font-size: 35px;
+    text-align: center !important;
+    font-size: 32px !important;
   }
-  .pApresH:not(#sectionMauris .pApresH) {
-    text-align: center;
-    font-size: 18px;
+  .pApresH {
+    text-align: center !important;
+    font-size: 18px !important;
   }
   header .pApresH {
     width: auto;
