@@ -22326,6 +22326,21 @@ ul {
   list-style: none;
 }
 
+h2 {
+  color: #323037;
+  font-size: 50px;
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.pApresH {
+  color: #aaaaaa;
+  letter-spacing: 1.2px;
+  line-height: 1.46;
+  margin-top: 13px;
+  font-size: 28px;
+}
+
 header {
   background-color: rgba(0, 0, 0, 0.5);
   height: 667px;
@@ -22373,6 +22388,25 @@ nav p, nav li {
   font-size: 20px;
   color: white;
   letter-spacing: 1.2px;
+}
+
+#sectionMaecenas {
+  background-color: white;
+  height: 554px;
+  gap: 65px;
+}
+#sectionMaecenas > div {
+  width: 465px;
+  height: 365px;
+}
+#sectionMaecenas div:last-of-type p {
+  line-height: 1.8;
+  font-size: 18px;
+  font-weight: 100;
+}
+#sectionMaecenas div:last-of-type p:first-of-type {
+  margin-top: 4px;
+  margin-bottom: 33px;
 }
 
 /*# sourceMappingURL=style.css.map */
