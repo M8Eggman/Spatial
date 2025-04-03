@@ -22510,4 +22510,27 @@ nav p, nav li {
   text-align: end;
 }
 
+#sectionAenean {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 445px;
+}
+#sectionAenean h2 {
+  margin-top: 95px;
+  color: white;
+}
+#sectionAenean p {
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+#sectionAenean button {
+  padding-inline: 55px;
+  padding-block: 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  background-color: #f32853;
+}
+
 /*# sourceMappingURL=style.css.map */
