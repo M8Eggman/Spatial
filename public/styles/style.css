@@ -22460,4 +22460,54 @@ nav p, nav li {
   background-color: #323037;
 }
 
+#sectionMauris {
+  background-color: white;
+  height: 908px;
+  padding-inline: 204px;
+}
+#sectionMauris h2 {
+  margin-top: 95px;
+}
+#sectionMauris > div > .pApresH {
+  margin-top: 13px;
+  margin-bottom: 101px;
+}
+#sectionMauris > div:last-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+#sectionMauris > div:last-of-type > div {
+  display: flex;
+  gap: 60px;
+}
+#sectionMauris > div:last-of-type > div > div {
+  width: 630px;
+  display: flex;
+  gap: 34px;
+}
+#sectionMauris > div:last-of-type > div > div div h4 {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+#sectionMauris > div:last-of-type > div > div div .pApresH {
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+#sectionMauris > div:last-of-type > div > div div p:last-of-type {
+  line-height: 1.78;
+  font-size: 18px;
+  font-weight: 100;
+}
+#sectionMauris > div:last-of-type > div > div img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid #e3e3e3;
+}
+#sectionMauris > div:last-of-type > div > div:nth-of-type(1) div, #sectionMauris > div:last-of-type > div > div:nth-of-type(3) div {
+  text-align: end;
+}
+
 /*# sourceMappingURL=style.css.map */
