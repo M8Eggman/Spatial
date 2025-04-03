@@ -1,2 +1,15 @@
 @use './_variables' as *
 @use './_fonts'
+
+@mixin stylePapresH
+    color: $grisTexte
+    font-size: 26px
+    line-height: 1.64
+@mixin styleBouton ($couleurBouton)
+        padding-inline: 55px
+        padding-block: 18px
+        border: none
+        border-radius: 5px
+        font-size: 22px
+        font-weight: 600
+        background-color: $couleurBouton
