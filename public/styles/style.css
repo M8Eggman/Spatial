@@ -22619,7 +22619,7 @@ footer > div:last-of-type div:nth-of-type(2) {
   nav input:checked + ul > li {
     text-align: center;
     display: block;
-    width: 100px;
+    width: 110px;
   }
   #sectionMaecenas {
     padding-block: 10px 20px;
