@@ -22340,10 +22340,13 @@ h2 {
   font-size: 28px;
 }
 
-nav > div {
+nav label {
   font-size: 25px;
   color: white;
   display: none;
+}
+nav input {
+  display: none !important;
 }
 
 header {
@@ -22591,6 +22594,7 @@ footer > div:last-of-type div:nth-of-type(2) {
   }
   nav {
     padding-inline: 10px;
+    height: 100px;
   }
   nav ul {
     display: none;
@@ -22598,8 +22602,24 @@ footer > div:last-of-type div:nth-of-type(2) {
   nav ul li {
     display: none;
   }
-  nav div {
+  nav label {
+    position: absolute;
+    left: 90vw;
     display: block;
+  }
+  nav input:checked + ul {
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    top: 105px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    gap: 10px;
+  }
+  nav input:checked + ul > li {
+    text-align: center;
+    display: block;
+    width: 100px;
   }
   #sectionMaecenas {
     padding-block: 10px 20px;

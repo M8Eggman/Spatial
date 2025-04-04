@@ -1,3 +1,7 @@
+@use './_variables' as *
+@use './_mixins' as *
+@use './_fonts'
+
 // Pour écran smartphone
 @media screen and (max-width: 576px)
     button
@@ -17,12 +21,29 @@
         width: auto
     nav 
         padding-inline: 10px
+        height: 100px
         ul 
             display: none 
             li
                 display: none
-        div
+        label
+            position: absolute
+            left: 90vw
             display: block
+        input:checked  
+            + ul 
+                flex-direction: column
+                position: relative
+                margin: 0
+                top: 105px
+                left: 10px
+                background-color: $noirTransparent
+                gap: 10px
+                > li
+                    text-align: center
+                    display: block
+                    width: 100px
+                    
     #sectionMaecenas
         padding-block: 10px 20px
         padding-inline: 10px
