@@ -22755,7 +22755,14 @@ footer > div:last-of-type div:nth-of-type(2) {
   #sectionMauris {
     padding-block: 0px 20px;
   }
+  #sectionMauris h2 {
+    text-align: center;
+  }
+  #sectionMauris .pApresH {
+    text-align: center;
+  }
   #sectionMauris > div:last-of-type > div {
+    justify-content: center;
     flex-wrap: wrap;
     padding-block: 0px 20px;
   }
